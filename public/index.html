@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="contact-container">
+
+        <div class="contact-card">
+
+            <h1>Stay Connected</h1>
+
+            <p>
+                Enter your phone number and we'll stay in touch.
+            </p>
+
+            <form id="contactForm">
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input type="tel" id="phone" name="phone" placeholder="+91 9876543210" required>
+
+                <button type="submit" id="submitButton">
+                    Submit
+                </button>
+
+            </form>
+
+            <p id="message" aria-live="polite"></p>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
